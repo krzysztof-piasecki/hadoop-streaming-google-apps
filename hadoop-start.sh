@@ -1,0 +1,1 @@
+cat input/datasource1/* | python mapper.py | sort | python combiner.py | python reducer.py > output.csv
